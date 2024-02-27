@@ -2,8 +2,6 @@ body {
   font-family: "Nunito", sans-serif;
   padding-top: 30px;
   box-sizing: border-box;
-  background: rgb(252, 252, 252);
-  color: black;
 }
 
 h1 {
@@ -65,7 +63,7 @@ h1 {
 }
 
 .actions a {
-  color: #1482d1;
+  color: #81caff;
   font-size: 16px;
   line-height: 17px;
   font-weight: 700;
@@ -73,9 +71,9 @@ h1 {
   display: inline-block;
   margin-right: 1.1em;
   padding: 6px 8px;
-  border: 2px solid #1482d1;
+  border: 2px solid #81caff;
   border-radius: 3px;
-  transition: 0.3s all ease;
+  transition: 0.2s all ease;
 }
 
 .private-repo {
@@ -93,18 +91,6 @@ h1 {
 }
 
 .actions > a:hover {
-  color: white;
-  background-color: #1482d1;
-  transform: scale(1.08);
-}
-
-/* @media (prefers-color-scheme: dark) { */
-.actions a {
-  color: #81caff;
-  border-color: #81caff;
-}
-
-.actions > a:hover {
   color: rgb(22, 22, 22);
   background-color: #81caff;
   transform: scale(1.08);
@@ -113,7 +99,6 @@ h1 {
 hr {
   border-color: #81caff;
 }
-/* } */
 
 .project {
   text-align: right;
