@@ -98,22 +98,22 @@ h1 {
   transform: scale(1.08);
 }
 
-@media (prefers-color-scheme: dark) {
-  .actions a {
-    color: #81caff;
-    border-color: #81caff;
-  }
-
-  .actions > a:hover {
-    color: rgb(22, 22, 22);
-    background-color: #81caff;
-    transform: scale(1.08);
-  }
-
-  hr {
-    border-color: #81caff;
-  }
+/* @media (prefers-color-scheme: dark) { */
+.actions a {
+  color: #81caff;
+  border-color: #81caff;
 }
+
+.actions > a:hover {
+  color: rgb(22, 22, 22);
+  background-color: #81caff;
+  transform: scale(1.08);
+}
+
+hr {
+  border-color: #81caff;
+}
+/* } */
 
 .project {
   text-align: right;
@@ -184,26 +184,26 @@ h1 {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  body,
-  html {
-    background: rgb(15, 15, 15);
-    color: white;
-  }
-
-  a,
-  a:hover,
-  a:visited,
-  a:active {
-    color: #81caff;
-  }
-
-  .caption {
-    color: #c2c2c2;
-  }
-
-  .private-repo {
-    color: #838383;
-    border: 2px solid #838383;
-  }
+/* @media (prefers-color-scheme: dark) { */
+body,
+html {
+  background: #15141c;
+  color: white;
 }
+
+a,
+a:hover,
+a:visited,
+a:active {
+  color: #81caff;
+}
+
+.caption {
+  color: #c2c2c2;
+}
+
+.private-repo {
+  color: #838383;
+  border: 2px solid #838383;
+}
+/* } */
