@@ -72,9 +72,9 @@ const data = {
       title: "BookStack",
       date: "December 2017",
       description: [
-        'An app for bookworms. BookStack allows users to track, organize, and maintain their book collections. From each entry, a user can add pertinent notes on the book, or add it to their "read next" list.',
-        "Google Books API for book covers, random New Yorker cartoon at welcome page. Dynamic links to Amazon & Goodreads.",
-        "HTML, CSS, Bootstrap, Javascript, jQuery, AJAX, Handlebars, Ruby on Rails, PostgreSQL.",
+        'BookStack allows users to track, organize, and maintain their book collections. From each entry, a user can add pertinent notes on the book, or add it to their "read next" list.',
+        "Google Books API for book covers, random New Yorker cartoon at welcome page.",
+        "HTML, CSS, Bootstrap, Javascript, jQuery, Handlebars, Ruby on Rails, PostgreSQL.",
       ],
       live: "https://colekins.github.io/bookstack",
       repo: "https://github.com/colekins/bookstack",

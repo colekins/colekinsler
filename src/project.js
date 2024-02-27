@@ -1,6 +1,6 @@
 function Project({ project }) {
   return (
-    <div className="row">
+    <div className="row project-row">
       <br></br>
       <div className="col-md-5">
         <a href={project.live} target="_blank" rel="noopener noreferrer">

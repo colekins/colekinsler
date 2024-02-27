@@ -2,6 +2,8 @@ body {
   font-family: "Nunito", sans-serif;
   padding-top: 30px;
   box-sizing: border-box;
+  background: rgb(252, 252, 252);
+  color: black;
 }
 
 h1 {
@@ -24,7 +26,7 @@ h1 {
 
 .caption {
   margin-bottom: 2em;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 16px;
   color: #616161;
   font-weight: 400;
@@ -44,11 +46,11 @@ h1 {
 }
 
 .project-description {
-  font-size: 15.5px;
+  font-size: 16px;
 }
 
-.row {
-  margin-bottom: 3em;
+.project-row {
+  margin-bottom: 4em;
 }
 
 .profile {
@@ -59,26 +61,26 @@ h1 {
 }
 
 .actions {
-  margin-top: 1.4em;
+  margin-top: 2.9em;
 }
 
 .actions a {
-  color: #4aaef7;
-  font-size: 14px;
+  color: #1482d1;
+  font-size: 16px;
   line-height: 17px;
   font-weight: 700;
   text-decoration: none;
   display: inline-block;
-  margin-right: 0.9em;
+  margin-right: 1.1em;
   padding: 6px 8px;
-  border: 2px solid #4aaef7;
+  border: 2px solid #1482d1;
   border-radius: 3px;
   transition: 0.3s all ease;
 }
 
 .private-repo {
   color: #bebebe;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
   font-weight: 700;
   text-decoration: none;
@@ -92,8 +94,8 @@ h1 {
 
 .actions > a:hover {
   color: white;
-  background-color: #4aaef7;
-  transform: scale(1.1);
+  background-color: #1482d1;
+  transform: scale(1.08);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -105,7 +107,7 @@ h1 {
   .actions > a:hover {
     color: rgb(22, 22, 22);
     background-color: #81caff;
-    transform: scale(1.1);
+    transform: scale(1.08);
   }
 
   hr {
@@ -117,11 +119,10 @@ h1 {
   text-align: right;
 }
 
-.music-note {
-  /* text-align: center; */
+/* .music-note {
   padding-bottom: 4em;
   font-size: 15px;
-}
+} */
 
 .screenshot {
   width: 93%;
