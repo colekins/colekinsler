@@ -1,38 +1,208 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Nunito", sans-serif;
+  padding-top: 30px;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  display: block;
+  font-weight: 300;
+  font-size: 48px;
+  margin-bottom: 0.55em;
+  margin-left: -5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.appname {
+  font-weight: 400;
+  font-size: 26px;
+  margin-bottom: 0.25em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.mobile-screenshot {
+  display: none;
+}
+
+.caption {
+  margin-bottom: 2em;
+  font-size: 13px;
+  line-height: 16px;
+  color: #616161;
+  font-weight: 400;
+}
+
+.intro-box {
+  text-align: left;
+}
+
+.intro-link {
+  font-weight: 500;
+}
+
+.intro {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.project-description {
+  font-size: 15.5px;
+}
+
+.row {
+  margin-bottom: 3em;
+}
+
+.profile {
+  height: 177px;
+  float: right;
+  border-radius: 50%;
+  margin: 1em;
+}
+
+.actions {
+  margin-top: 1.4em;
+}
+
+.actions a {
+  color: #4aaef7;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 0.9em;
+  padding: 6px 8px;
+  border: 2px solid #4aaef7;
+  border-radius: 3px;
+  transition: 0.3s all ease;
+}
+
+.private-repo {
+  color: #bebebe;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 0.9em;
+  padding: 6px 8px;
+  border: 2px solid #bebebe;
+  border-radius: 3px;
+  cursor: default;
+}
+
+.actions > a:hover {
   color: white;
+  background-color: #4aaef7;
+  transform: scale(1.1);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (prefers-color-scheme: dark) {
+  .actions a {
+    color: #81caff;
+    border-color: #81caff;
   }
-  to {
-    transform: rotate(360deg);
+
+  .actions > a:hover {
+    color: rgb(22, 22, 22);
+    background-color: #81caff;
+    transform: scale(1.1);
+  }
+
+  hr {
+    border-color: #81caff;
+  }
+}
+
+.project {
+  text-align: right;
+}
+
+.music-note {
+  /* text-align: center; */
+  padding-bottom: 4em;
+  font-size: 15px;
+}
+
+.screenshot {
+  width: 93%;
+  transition: 0.3s transform ease;
+}
+
+.screenshot:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 991px) {
+  .project {
+    text-align: left;
+  }
+
+  .screenshot {
+    width: 97%;
+  }
+
+  .profile {
+    height: 145px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .profile {
+    margin: 0.75em;
+  }
+}
+
+@media (max-width: 580px) {
+  .profile {
+    height: 120px;
+  }
+}
+
+@media (max-width: 992px) {
+  .desktop-screenshot {
+    display: none;
+  }
+
+  .mobile-screenshot {
+    display: inline;
+  }
+
+  .row {
+    margin-bottom: 2.5em;
+  }
+}
+
+@media (max-width: 370px) {
+  .profile {
+    height: 110px;
+  }
+
+  .row {
+    margin-bottom: 1.5em;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body,
+  html {
+    background: rgb(15, 15, 15);
+    color: white;
+  }
+
+  a,
+  a:hover,
+  a:visited,
+  a:active {
+    color: #81caff;
+  }
+
+  .caption {
+    color: #c2c2c2;
+  }
+
+  .private-repo {
+    color: #838383;
+    border: 2px solid #838383;
   }
 }
