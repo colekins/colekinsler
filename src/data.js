@@ -4,7 +4,7 @@ const data = {
       title: "Strike Aid",
       date: "February 2024",
       description: [
-        "A repository of strike funds. Filter, sort, and learn about active strike actions and how you can help. Includes a form to submit information utilizing Netlify Forms.",
+        "A repository of strike funds. Filter, sort, and learn about active labor actions and how you can help. Includes a form to submit information utilizing Netlify Forms.",
         "Site designed in Figma. Logo created in Pixelmator Pro.",
         "Next.js, CSS, Umami, PlanetScale, Netlify.",
       ],
