@@ -19,7 +19,7 @@ const data = {
         "Website to encourage reading of the proposed Green New Deal resolution. One page layout with clear typography. ",
         "React, CSS.",
       ],
-      live: "https://readthegreennewdeal.com",
+      live: "https://readthegreennewdeal.netlify.app",
       screenshot: "https://i.imgur.com/eWpB8Fx.png",
       repo: "https://github.com/colekins/read-the-gnd",
     },
